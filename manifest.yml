@@ -1,0 +1,11 @@
+applications:
+- path: target/webStarterApp.war
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: hangmandavidhalbig
+  host: hangmandavidhalbig
+  disk_quota: 1024M
+  services:
+  - Cloudant NoSQL DB-ok
+  - availability-monitoring-auto
